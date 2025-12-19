@@ -54,6 +54,31 @@ An interactive music player featuring five unique animated mascot characters. Ea
 - Node.js 18+ installed
 - npm or yarn package manager
 
+## Usage
+
+1. **Select a Mascot** - Click on the mascot carousel at the top to choose your companion
+2. **Play Music** - Click the play button to start the default track
+3. **Add Your Own Music** - Click the playlist button and drag your audio files into the zone
+4. **Interact** - Click anywhere in the boredom zone to see mascot reactions and sparkles
+5. **Toggle Mini Mode** - Use the minimize button for a compact player view
+6. **Switch Themes** - Click the sun/moon icon to toggle between light and dark modes
+
+## Design Philosophy
+
+Web Toy is inspired by cartoon aesthetics from shows like Adventure Time and OK K.O.! The design features:
+- Bold, vibrant colors that shift with each mascot
+- Rounded, friendly shapes and interactions
+- Smooth, playful animations
+- Responsive layouts that work on all screen sizes
+- Accessible controls with proper ARIA labels
+
+## Browser Support
+
+Web Toy works best in modern browsers with Web Audio API support:
+- Chrome/Edge 90+
+- Firefox 88+
+- Safari 14+
+
 ### Installation
 
 1. Clone the repository
@@ -87,31 +112,6 @@ npm start
 yarn build
 yarn start
 ```
-
-## Usage
-
-1. **Select a Mascot** - Click on the mascot carousel at the top to choose your companion
-2. **Play Music** - Click the play button to start the default track
-3. **Add Your Own Music** - Click the playlist button and drag your audio files into the zone
-4. **Interact** - Click anywhere in the boredom zone to see mascot reactions and sparkles
-5. **Toggle Mini Mode** - Use the minimize button for a compact player view
-6. **Switch Themes** - Click the sun/moon icon to toggle between light and dark modes
-
-## Design Philosophy
-
-Web Toy is inspired by cartoon aesthetics from shows like Adventure Time and OK K.O.! The design features:
-- Bold, vibrant colors that shift with each mascot
-- Rounded, friendly shapes and interactions
-- Smooth, playful animations
-- Responsive layouts that work on all screen sizes
-- Accessible controls with proper ARIA labels
-
-## Browser Support
-
-Web Toy works best in modern browsers with Web Audio API support:
-- Chrome/Edge 90+
-- Firefox 88+
-- Safari 14+
 
 ## Contributing
 
