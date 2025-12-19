@@ -71,6 +71,7 @@ Web Toy is inspired by cartoon aesthetics from shows like Adventure Time and OK 
 - Smooth, playful animations
 - Responsive layouts that work on all screen sizes
 - Accessible controls with proper ARIA labels
+- Custom Character designs (Coming Soon)
 
 ## Browser Support
 
