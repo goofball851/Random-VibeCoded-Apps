@@ -12,3 +12,25 @@ When a `<fun-box>` is initialized, it reads the `type` attribute (e.g. `rive`, `
 
 ```js
 import(`./plugins/loader-${type}.js`)
+
+---
+
+🛠 Tips
+
+Keep plugin logic isolated — don’t leak globals
+
+If a plugin needs to preload assets, do it in the async function
+
+Load only the required runtime (don’t bundle all into core)
+
+Use inline styles or classes, not external CSS
+
+💡 Future Ideas
+
+Add a fallback for unsupported types
+
+Enable shared controls (pause, reset, volume)
+
+Allow multiple states per plugin
+
+Support multiple plugins per Fun Box
