@@ -27,6 +27,9 @@
 />
 ```
 
+```Mascots
+<fun-box character="none"></fun-box>
+```
 ---
 
 ## 📦 FunBox Component
