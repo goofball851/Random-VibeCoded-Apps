@@ -29,7 +29,8 @@
 
 ---
 
-```📦 FunBox Component
+## 📦 FunBox Component
 
+```
 <script type="module" src="src/fun-box.js"></script>
 ```
