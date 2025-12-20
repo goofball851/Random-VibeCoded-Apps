@@ -24,12 +24,12 @@
   character="boomi"
   trigger="click"
   behavior="bounce"
-/>`
+/>```
 
 ---
 
 ## 📦 FunBox Component
 
 
-```<script type="module" src="src/fun-box.js"></script>`
+```<script type="module" src="src/fun-box.js"></script>
 ```
