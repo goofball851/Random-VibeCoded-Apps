@@ -17,7 +17,7 @@
 
 ## 🚀 Getting Started
 
-`html
+```html
 <fun-box
   type="placeholder"
   src=""
@@ -30,4 +30,4 @@
 
 ## 📦 FunBox Component
 
-`<script type="module" src="src/fun-box.js"></script>
+```<script type="module" src="src/fun-box.js"></script>`
