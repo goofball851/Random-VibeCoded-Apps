@@ -18,22 +18,20 @@ import(`./plugins/loader-${type}.js`)
 
 ## 🛠 Tips
 
-Keep plugin logic isolated — don’t leak globals
+Keep plugin logic isolated — don’t leak globals.
 
-If a plugin needs to preload assets, do it in the async function
+If a plugin needs to preload assets, do it in the async function.
 
-Load only the required runtime (don’t bundle all into core)
+Load only the required runtime (don’t bundle all into core).
 
-Use inline styles or classes, not external CSS
+Use inline styles or classes, not external CSS.
 
 ---
 
 ## 💡 Future Ideas
 
-Add a fallback for unsupported types
+1. Add a fallback for unsupported types
+2. Enable shared controls (pause, reset, volume)
+3. Allow multiple states per plugin
+4. Support multiple plugins per Fun Box
 
-Enable shared controls (pause, reset, volume)
-
-Allow multiple states per plugin
-
-Support multiple plugins per Fun Box
