@@ -2,6 +2,9 @@
 
 An interactive music player featuring five unique animated mascot characters. Each mascot brings their own personality and vibe to your listening experience with real-time animations, beat-synced visualizations, and playful interactions.
 
+<img width="500" height="500" alt="jwaller05_super_cartoony_illustrations_of_a_emoji_style_masco_22287e1c-d1e0-4456-9833-fbd8694057cc_2" src="https://github.com/user-attachments/assets/e4bd85ff-6e09-4ef5-942c-187dc9e92491" />
+
+
 *Automatically synced with your [v0.app](https://v0.app) deployments*
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/goofball851-gmailcoms-projects/v0-web-toy-build)
