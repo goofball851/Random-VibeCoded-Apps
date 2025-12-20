@@ -1,9 +1,8 @@
 # 🎁 Fun Box 1.0
 
-<img width="500" height="500" alt="funboxComponent" src="https://github.com/user-attachments/assets/bf281f67-89e0-4b91-a29c-9f2ac654464b" />
-
-
 **Fun Box** is a modular web component designed to contain and manage rich visual or interactive elements — like Rive, Spline, Lottie, or custom canvases — in a simple, drop-in format. It can be used in websites, apps, or PWAs.
+
+<img width="500" height="500" alt="funboxComponent" src="https://github.com/user-attachments/assets/bf281f67-89e0-4b91-a29c-9f2ac654464b" />
 
 ---
 
