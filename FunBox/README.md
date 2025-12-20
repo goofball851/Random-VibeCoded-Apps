@@ -1,4 +1,4 @@
-# 🎁 Fun Box
+# 🎁 Fun Box 1.0
 
 **Fun Box** is a modular web component designed to contain and manage rich visual or interactive elements — like Rive, Spline, Lottie, or custom canvases — in a simple, drop-in format. It can be used in websites, apps, or PWAs.
 
