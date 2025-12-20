@@ -24,7 +24,7 @@
   character="boomi"
   trigger="click"
   behavior="bounce"
-/>
+/>```
 
 ---
 
