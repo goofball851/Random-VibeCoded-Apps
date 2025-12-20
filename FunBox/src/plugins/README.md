@@ -16,7 +16,7 @@ import(`./plugins/loader-${type}.js`)
 
 ---
 
-🛠 Tips
+## 🛠 Tips
 
 Keep plugin logic isolated — don’t leak globals
 
@@ -26,7 +26,9 @@ Load only the required runtime (don’t bundle all into core)
 
 Use inline styles or classes, not external CSS
 
-💡 Future Ideas
+---
+
+## 💡 Future Ideas
 
 Add a fallback for unsupported types
 
