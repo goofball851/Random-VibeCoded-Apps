@@ -44,3 +44,9 @@ To disable:
 ```Mascots
 <fun-box character="none"></fun-box>
 ```
+
+---
+
+## 📝 License
+
+All plugin code is covered under the main project MIT license. Contribute freely and creatively.
