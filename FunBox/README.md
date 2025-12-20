@@ -26,6 +26,25 @@
   behavior="bounce"
 />
 ```
+
+---
+
+## 🧪 Plugin Contract (Standard Interface)
+
+Every plugin loader should:
+
+📥 Accept:
+```
+(container: HTMLElement, src: string, behavior: string)
+```
+
+📤 Return:
+```
+{
+  play: (behavior: string) => void
+}
+```
+
 ---
 
 ## 📦 FunBox Component
