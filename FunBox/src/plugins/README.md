@@ -12,6 +12,7 @@ When a `<fun-box>` is initialized, it reads the `type` attribute (e.g. `rive`, `
 
 ```js
 import(`./plugins/loader-${type}.js`)
+```
 
 ---
 
