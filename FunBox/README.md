@@ -50,3 +50,13 @@ To disable:
 ## 📝 License
 
 All plugin code is covered under the main project MIT license. Contribute freely and creatively.
+
+---
+
+## 🔗 Resources
+
+[Rive JS Runtime Docs](https://docs.rive.app/runtime/)
+
+[Lottie Web](https://github.com/airbnb/lottie-web)
+
+[Spline Runtime](https://docs.spline.design/web-app-runtime)
