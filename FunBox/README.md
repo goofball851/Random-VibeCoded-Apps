@@ -26,6 +26,13 @@
   behavior="bounce"
 />
 ```
+---
+
+## 🎨 Mascots
+
+Mascots are optional and provide personality or themed feedback.
+
+To disable:
 
 ```Mascots
 <fun-box character="none"></fun-box>
