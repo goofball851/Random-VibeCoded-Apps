@@ -2,6 +2,8 @@
 
 A modern photo video creator with motion graphic transitions and trendy effects. Transform your photos into engaging videos with smooth animations, text overlays, and professional-looking transitions.
 
+<img width="500" height="500" alt="framez" src="https://github.com/user-attachments/assets/15597b9d-d443-47fe-9a65-38b59d5b078e" />
+
 *Automatically synced with your [v0.app](https://v0.app) deployments*
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/goofball851-gmailcoms-projects/v0-video-creation-app)
