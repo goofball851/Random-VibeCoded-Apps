@@ -25,3 +25,7 @@
   trigger="click"
   behavior="bounce"
 />
+
+
+```<script type="module" src="src/fun-box.js"></script>
+
