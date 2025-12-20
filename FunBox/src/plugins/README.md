@@ -18,13 +18,13 @@ import(`./plugins/loader-${type}.js`)
 
 ## 🛠 Tips
 
-Keep plugin logic isolated — don’t leak globals.
+Keep plugin logic isolated — don’t leak globals
 
-If a plugin needs to preload assets, do it in the async function.
+If a plugin needs to preload assets, do it in the async function
 
-Load only the required runtime (don’t bundle all into core).
+Load only the required runtime (don’t bundle all into core)
 
-Use inline styles or classes, not external CSS.
+Use inline styles or classes, not external CSS
 
 ---
 
