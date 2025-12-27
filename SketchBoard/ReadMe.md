@@ -1,4 +1,3 @@
-# SketchBoard
 
 <img width="500" height="500" alt="Gemini_Generated_Image_l9sq1ml9sq1ml9sq" src="https://github.com/user-attachments/assets/b390b085-d983-4eed-8a71-15a0b8210293" />
 
