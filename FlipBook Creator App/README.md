@@ -1,5 +1,9 @@
 # Framez - FlipBook Creation App
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![React](https://img.shields.io/badge/react-18.0+-61dafb.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
+
 A modern photo-based video creator with motion graphic transitions and trendy effects. Transform your photos into engaging videos with smooth animations, text overlays, and professional-looking transitions.
 
 <img width="500" height="500" alt="framez" src="https://github.com/user-attachments/assets/15597b9d-d443-47fe-9a65-38b59d5b078e" />
