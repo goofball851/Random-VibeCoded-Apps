@@ -1,6 +1,6 @@
 # SketchBoard
 
-<img width="780" height="780" alt="Gemini_Generated_Image_l9sq1ml9sq1ml9sq" src="https://github.com/user-attachments/assets/b390b085-d983-4eed-8a71-15a0b8210293" />
+<img width="500" height="500" alt="Gemini_Generated_Image_l9sq1ml9sq1ml9sq" src="https://github.com/user-attachments/assets/b390b085-d983-4eed-8a71-15a0b8210293" />
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/react-18.0+-61dafb.svg)
