@@ -15,7 +15,7 @@ An interactive music player featuring five unique animated mascot characters. Ea
 ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
 
 
-![Web Toy Preview](https://via.placeholder.com/1200x600/FF6B9D/FFFFFF?text=Web+Toy+Music+Player)
+![Web Toy Preview] - Coming Soon
 
 ## Features
 
