@@ -3,7 +3,6 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/react-18.0+-61dafb.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 **SketchBoard** is an infinite canvas drawing application for visual brainstorming and idea exploration. Draw freely, upload reference images, and sketch over them to plan out your concepts.
 
