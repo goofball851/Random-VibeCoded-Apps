@@ -10,6 +10,10 @@ An interactive music player featuring five unique animated mascot characters. Ea
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/goofball851-gmailcoms-projects/v0-web-toy-build)
 [![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/o4YvMlG2R7X)
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![React](https://img.shields.io/badge/react-18.0+-61dafb.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
+
 
 ![Web Toy Preview](https://via.placeholder.com/1200x600/FF6B9D/FFFFFF?text=Web+Toy+Music+Player)
 
