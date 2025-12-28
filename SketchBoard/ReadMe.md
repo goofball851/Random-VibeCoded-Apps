@@ -96,6 +96,8 @@ When you click Save, SketchBoard:
 - Move tool lets you reposition after upload
 - Images integrate with undo/redo system
 - Multiple images supported
+- Selected images show a blue border
+- Delete button appears when an image is selected
 
 ### Infinite Canvas
 - No size limits - draw as large as you need
@@ -121,6 +123,11 @@ Contributions welcome! Please feel free to submit a Pull Request.
 - [ ] Export in different formats (JPG, SVG)
 - [ ] Custom watermark images
 - [ ] Touch/stylus pressure sensitivity
+- [ ] Grid and ruler overlays
+- [ ] Text Tool
+- [ ] Shape tools (rectangle, circle, line)
+- [ ] Local storage auto-save
+
 
 ## Contact
 
