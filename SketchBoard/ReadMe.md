@@ -21,6 +21,9 @@ Perfect for artists, designers, and anyone who thinks visually!
 - **Upload Images** - Add reference images or AI-generated concepts
 - **Move Images** - Reposition images anywhere on the canvas
 - **Draw Over Images** - Sketch directly on top of references
+- **Delete Images** - Remove selected images with visual confirmation
+- **Visual Selection** - Blue border highlights selected images
+
 
 ### Canvas Controls
 - **Pan & Zoom** - Navigate your workspace smoothly
