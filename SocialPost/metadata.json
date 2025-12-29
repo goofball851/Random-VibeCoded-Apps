@@ -1,0 +1,8 @@
+
+{
+  "name": "SocialPost Ai",
+  "description": "Create stunning social media preview cards using AI. Paste a URL to auto-extract info or upload your own images and customize with beautiful templates.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
