@@ -1,8 +1,9 @@
 # 🚀 SocialPost Ai
 
+<img width="500" height="500" alt="Gemini_Generated_Image_ci4d9hci4d9hci4d" src="https://github.com/user-attachments/assets/0bfb6d87-3a0f-411a-88e0-80dd794875ef" />
+
 Create stunning, high-engagement social media cards in seconds. **SocialPost Ai** leverages the power of Google's Gemini models to turn simple URLs or raw text into beautiful, shareable 1:1 square images.
 
-![SocialPost Ai Hero](https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=1000)
 
 ## ✨ Key Features
 
