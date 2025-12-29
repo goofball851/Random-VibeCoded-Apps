@@ -1,4 +1,5 @@
 # Random-VibeCoded-Apps
 A growing collection of random web and app ideas created out of boredom with Chat GPT, Claude AI, and V0
 
-<img width="600" height="600" alt="jwaller05_website_design_with_cartoony_handdrawn_elements_--s_a7800eca-5274-46dc-8dae-61c1033df599_3" src="https://github.com/user-attachments/assets/b7e7a63a-ba49-4dff-a38c-96de8623c1c3" />
+<img width="500" height="500" alt="Gemini_Generated_Image_s0750ss0750ss075" src="https://github.com/user-attachments/assets/e1c219f0-2140-4288-8228-0a655e89f26c" />
+
