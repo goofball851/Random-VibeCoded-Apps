@@ -1,4 +1,4 @@
-# 🚀 SocialPost Ai
+# 🚀 SocialPost App
 
 <img width="500" height="500" alt="Gemini_Generated_Image_ci4d9hci4d9hci4d" src="https://github.com/user-attachments/assets/0bfb6d87-3a0f-411a-88e0-80dd794875ef" />
 
