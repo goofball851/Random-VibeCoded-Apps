@@ -24,7 +24,8 @@ Each loader must return an object with:
 {
   play: (behavior: string) => void,
   destroy: () => void
-}```
+}
+```
 
 ---
 
