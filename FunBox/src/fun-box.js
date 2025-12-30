@@ -2,6 +2,7 @@ class FunBox extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
+    this.plugin = null;
   }
 
   connectedCallback() {
@@ -20,29 +21,46 @@ class FunBox extends HTMLElement {
     `;
 
     this.loadPlugin(type, src, behavior);
-    this.addTrigger(trigger, behavior);
-  }
-
-  addTrigger(trigger, behavior) {
-    this.shadowRoot.querySelector(".fun-box-wrapper")
-      .addEventListener(trigger, () => {
-        if (this.plugin && typeof this.plugin.play === "function") {
-          this.plugin.play(behavior);
-        } else {
-          console.log(`[FunBox] Triggered: ${behavior}`);
-        }
-      });
+    this.setupTrigger(trigger, behavior);
   }
 
   async loadPlugin(type, src, behavior) {
     try {
       const module = await import(`./plugins/loader-${type}.js`);
-      this.plugin = await module.default(this.shadowRoot.getElementById("canvas"), src, behavior);
+      this.plugin = await module.default(
+        this.shadowRoot.getElementById("canvas"),
+        src,
+        behavior
+      );
     } catch (e) {
       console.warn(`[FunBox] Failed to load plugin "${type}". Using fallback.`);
-      this.shadowRoot.getElementById("canvas").innerHTML = `<img src="public/placeholder.svg" alt="FunBox Placeholder">`;
+      this.shadowRoot.getElementById("canvas").innerHTML = `
+        <img src="public/placeholder.svg" alt="FunBox Placeholder">
+      `;
     }
+  }
+
+  setupTrigger(trigger, behavior) {
+    this.shadowRoot.querySelector(".fun-box-wrapper")
+      .addEventListener(trigger, () => {
+        if (this.plugin && typeof this.plugin.play === "function") {
+          this.plugin.play(behavior);
+        }
+      });
+  }
+
+  // Cleanup when removed from DOM
+  disconnectedCallback() {
+    if (this.plugin && typeof this.plugin.destroy === "function") {
+      this.plugin.destroy();
+    }
+  }
+
+  // Optional manual close handler
+  close() {
+    this.disconnectedCallback();
+    this.remove();
   }
 }
 
-customElements.define('fun-box', FunBox);
+customElements.define("fun-box", FunBox);
