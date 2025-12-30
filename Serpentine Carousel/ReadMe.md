@@ -1,4 +1,4 @@
-# Ribbon Style Carousel
+# Serpentine Carousel
 
 <img width="500" height="500" alt="Gemini_Generated_Image_mxtjx5mxtjx5mxtj" src="https://github.com/user-attachments/assets/55db1947-e0a9-4134-ba99-9b3d5a9526d1" />
 
