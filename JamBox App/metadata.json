@@ -1,0 +1,8 @@
+
+{
+  "name": "Jam Box",
+  "description": "A lightweight interactive music player and boredom toy mascot.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
