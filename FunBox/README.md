@@ -1,4 +1,4 @@
-# 🎁 Fun Box 1.0
+# 🎁 Fun Box 1.1
 
 <img width="500" height="500" alt="funboxComponent" src="https://github.com/user-attachments/assets/bf281f67-89e0-4b91-a29c-9f2ac654464b" />
 
@@ -18,6 +18,14 @@
 - Optional character/mascot display
 - Plugin-type support (via loaders)
 - Placeholder plugin included
+
+---
+
+## Updates
+
+- ✅ Plugin lifecycle with `destroy()`
+- ✅ Web Component that auto-cleans on removal
+- ✅ Plugin system ready for future Rive/Lottie loaders
 
 ---
 
