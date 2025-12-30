@@ -16,6 +16,24 @@ import(`./plugins/loader-${type}.js`)
 
 ---
 
+# 🧩 Fun Box Plugin System
+
+This folder contains plugin loaders for interactive types like Rive, Lottie, etc.
+
+---
+
+## 🔄 Plugin Lifecycle
+
+Each loader must return an object with:
+
+```js
+{
+  play: (behavior: string) => void,
+  destroy: () => void
+}```
+
+---
+
 ## 🛠 Tips
 
 Keep plugin logic isolated — don’t leak globals
