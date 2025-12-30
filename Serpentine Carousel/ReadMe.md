@@ -9,6 +9,8 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success)](#)
 
+https://ai.studio/apps/drive/1Po9yzhTXPV3QDke9z6RRwBc5hNyQam6m
+ 
 A responsive, motion-driven **serpentine carousel** built with **React**, **TypeScript**, and **Framer Motion** using Google AI Studio. 
 Designed to feel *alive* — continuously flowing on desktop, touch-friendly on mobile, and interaction-aware.
 
