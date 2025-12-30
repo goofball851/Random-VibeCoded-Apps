@@ -1,0 +1,5 @@
+{
+  "name": "Serpentine Media Carousel",
+  "description": "A high-end, smooth serpentine carousel featuring a 3-track flow for images and videos, built with React and Framer Motion for hardware-accelerated animations.",
+  "requestFramePermissions": []
+}
