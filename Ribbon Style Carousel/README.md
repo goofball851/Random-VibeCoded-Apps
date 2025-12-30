@@ -7,7 +7,6 @@
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-11.11-0055FF?logo=framer&logoColor=white)](https://www.framer.com/motion/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4+-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Rive](https://img.shields.io/badge/Rive-Ready-black?logo=rive&logoColor=white)](https://rive.app/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 A high-fidelity, serpentine media carousel engine built with **React**, **Framer Motion**, and **Rive**. Designed for cinematic asset discovery with a focus on fluid motion and adaptive scaling across all device modalities.
 
