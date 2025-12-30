@@ -63,7 +63,4 @@ The project is structured with a root `index.html` using an `importmap`. Compone
 - **RibbonCarousel**: The core engine orchestrating the progress and scaling.
 - **CarouselItem**: Individual nodes with 3D hover physics and Rive state-machine integration.
 - **MediaModal**: The immersive detail view with orientation-aware layout logic.
-
-## 📄 License
-
-MIT © [Your Name/Organization]
+- 
