@@ -1,5 +1,7 @@
 # FLUX.RIBBON Engine v2.5
 
+<img width="500" height="500" alt="Gemini_Generated_Image_mxtjx5mxtjx5mxtj" src="https://github.com/user-attachments/assets/55db1947-e0a9-4134-ba99-9b3d5a9526d1" />
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-19.0.0-61DAFB?logo=react&logoColor=white)](https://react.dev/)
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-11.11-0055FF?logo=framer&logoColor=white)](https://www.framer.com/motion/)
@@ -8,8 +10,6 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 A high-fidelity, serpentine media carousel engine built with **React**, **Framer Motion**, and **Rive**. Designed for cinematic asset discovery with a focus on fluid motion and adaptive scaling across all device modalities.
-
-![FLUX.RIBBON Banner](https://images.unsplash.com/photo-1614850523296-d8c1af93d400?auto=format&fit=crop&w=1200&q=80)
 
 ## ✨ Features
 
