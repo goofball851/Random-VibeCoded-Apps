@@ -1,95 +1,89 @@
-# 🎁 Fun Box 1.1
+# 📦 Funbox Runtime Engine
 
-<img width="500" height="500" alt="funboxComponent" src="https://github.com/user-attachments/assets/bf281f67-89e0-4b91-a29c-9f2ac654464b" />
+[![Version](https://img.shields.io/badge/Version-1.0.2-indigo)](https://github.com/your-username/funbox-runtime)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![React](https://img.shields.io/badge/React-19.0.0-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-11.11-0055FF?logo=framer&logoColor=white)](https://www.framer.com/motion/)
+[![Rive](https://img.shields.io/badge/Rive-4.17-black?logo=rive&logoColor=white)](https://rive.app/)
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![React](https://img.shields.io/badge/react-18.0+-61dafb.svg)
-![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
+A high-performance, isolated interaction layer for React. Funbox creates a "Cinematic Mode" for your web applications, allowing users to interact with Rive, Lottie, or video assets in a distraction-free, full-screen environment.
 
-**Fun Box** is a modular web component designed to contain and manage rich visual or interactive elements — like Rive, Spline, Lottie, or custom canvases — in a simple, drop-in format. It can be used in websites, apps, or PWAs.
+## ✨ Key Features
 
----
+- **Process Isolation**: Mounts via React Portals at the document root to bypass parent CSS constraints (z-index, overflow, etc.).
+- **Smart Scroll Management**: Automatically locks and restores document scrolling on mount/unmount.
+- **HUD Interface**: Built-in minimalist "Heads-Up Display" with active process tracking and a "Process Kill" emergency exit.
+- **Engine Agnostic**: Architected to support multiple rendering engines (currently optimized for Rive Canvas).
+- **Motion Orchestration**: Powered by Framer Motion for high-end entry/exit transitions.
 
-## 📦 Features
+## 🚀 Installation
 
-- Web Component (`<fun-box>`)
-- Interaction mapping (`click`, `hover`, `tap`, etc.)
-- Behavior trigger system (`bounce`, `nod`, etc.)
-- Optional character/mascot display
-- Plugin-type support (via loaders)
-- Placeholder plugin included
+This is a **Source Plugin**. Simply copy the `/funbox` folder into your project's `src` or `components` directory.
 
----
-
-## Updates
-
-- ✅ Plugin lifecycle with `destroy()`
-- ✅ Web Component that auto-cleans on removal
-- ✅ Plugin system ready for future Rive/Lottie loaders
-
----
-
-## 🚀 Getting Started
-
-```html
-<fun-box
-  type="placeholder"
-  src=""
-  character="boomi"
-  trigger="click"
-  behavior="bounce"
-/>
+### Peer Dependencies
+Ensure your project has the following installed:
+```bash
+npm install framer-motion @rive-app/react-canvas tailwindcss
 ```
 
----
+## 🛠 Usage
 
-## 🧪 Plugin Contract (Standard Interface)
+1. **Define a Session**: The Runtime is controlled by a `FunboxSession` object.
+2. **Mount the Component**: Place the component anywhere in your tree (it portals out to document body).
 
-Every plugin loader should:
+```tsx
+import { useState } from 'react';
+import { FunboxRuntime, FunboxSession } from './funbox';
 
-📥 Accept:
-```
-(container: HTMLElement, src: string, behavior: string)
-```
+export function MyExperience() {
+  const [activeSession, setActiveSession] = useState<FunboxSession | null>(null);
 
-📤 Return:
-```
-{
-  play: (behavior: string) => void
+  const launchScene = () => {
+    setActiveSession({
+      itemId: 'SCENE_01',
+      type: 'rive',
+      url: 'https://cdn.rive.app/animations/vehicles.riv'
+    });
+  };
+
+  return (
+    <div>
+      <button onClick={launchScene}>Launch Interaction</button>
+
+      <FunboxRuntime 
+        session={activeSession} 
+        onClose={() => setActiveSession(null)} 
+      />
+    </div>
+  );
 }
 ```
 
----
+## 📖 API Reference
 
-## 📦 FunBox Component
+### `FunboxRuntime` Props
 
-```
-<script type="module" src="src/fun-box.js"></script>
-```
----
+| Prop | Type | Description |
+| :--- | :--- | :--- |
+| `session` | `FunboxSession \| null` | The data object defining the content to render. If null, the runtime hides. |
+| `onClose` | `() => void` | Callback triggered when the "Kill Process" button is clicked. |
+| `version` | `string` | Optional version string displayed in the HUD. |
 
-## 🎨 Mascots
+### `FunboxSession` Object
 
-Mascots are optional and provide personality or themed feedback.
+| Field | Type | Description |
+| :--- | :--- | :--- |
+| `itemId` | `string` | A unique identifier shown in the HUD (Debug mode). |
+| `type` | `'rive' \| 'lottie'` | The rendering engine to initialize. |
+| `url` | `string` | Remote source URL for the asset. |
 
-To disable:
+## 🎨 Design Philosophy
 
-```Mascots
-<fun-box character="none"></fun-box>
-```
+Funbox is designed to feel like a "System Level" event. 
+- **The HUD**: Uses `font-mono` and high-tracking uppercase text to simulate a terminal/OS interface.
+- **The Backdrop**: Uses a pure deep `#000000` to refocus the user's brain on the interaction.
+- **Transitions**: Uses a 800ms "Initialization" delay to hide engine loading/asset fetching artifacts, ensuring a "perfect" first frame.
 
----
+## 📄 License
 
-## 📝 License
-
-All plugin code is covered under the main project MIT license. Contribute freely and creatively.
-
----
-
-## 🔗 Resources
-
-[Rive JS Runtime Docs](https://docs.rive.app/runtime/)
-
-[Lottie Web](https://github.com/airbnb/lottie-web)
-
-[Spline Runtime](https://docs.spline.design/web-app-runtime)
+MIT © 2024 Flux Ribbon Labs.
