@@ -1,5 +1,8 @@
 # 📦 Funbox Runtime Engine
 
+<img width="400" height="400" alt="Gemini_Generated_Image_p3k5ptp3k5ptp3k5" src="https://github.com/user-attachments/assets/e6bf5f64-fa62-48a2-a548-5c7256722b85" />
+
+
 [![Version](https://img.shields.io/badge/Version-1.0.2-indigo)](https://github.com/your-username/funbox-runtime)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-19.0.0-61DAFB?logo=react&logoColor=white)](https://react.dev/)
@@ -83,7 +86,3 @@ Funbox is designed to feel like a "System Level" event.
 - **The HUD**: Uses `font-mono` and high-tracking uppercase text to simulate a terminal/OS interface.
 - **The Backdrop**: Uses a pure deep `#000000` to refocus the user's brain on the interaction.
 - **Transitions**: Uses a 800ms "Initialization" delay to hide engine loading/asset fetching artifacts, ensuring a "perfect" first frame.
-
-## 📄 License
-
-MIT © 2024 Flux Ribbon Labs.
