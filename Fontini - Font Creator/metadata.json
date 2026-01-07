@@ -1,0 +1,5 @@
+{
+  "name": "HandyFont Creator",
+  "description": "Transform your hand-drawn characters into a custom downloadable OpenType font file using React and opentype.js.",
+  "requestFramePermissions": []
+}
