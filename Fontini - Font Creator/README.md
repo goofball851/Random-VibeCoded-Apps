@@ -1,5 +1,8 @@
 # Fontini
 
+<img width="500" height="500" alt="Gemini_Generated_Image_yv034zyv034zyv03" src="https://github.com/user-attachments/assets/4f93431a-924d-41ea-99f3-13b17e31eceb" />
+
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-18.x-blue.svg)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
