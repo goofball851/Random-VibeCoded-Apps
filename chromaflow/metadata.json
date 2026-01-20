@@ -1,0 +1,8 @@
+{
+  "description": "",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "name": "ChromaFlow"
+}
