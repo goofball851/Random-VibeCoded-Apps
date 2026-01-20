@@ -1,5 +1,8 @@
 # 🎨 ChromaFlow AI
 
+<img width="500" height="500" alt="Gemini_Generated_Image_2r6i9n2r6i9n2r6i" src="https://github.com/user-attachments/assets/9d21e7cc-b250-46e4-9ef1-abea9099c525" />
+
+
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=google-gemini&logoColor=white)
