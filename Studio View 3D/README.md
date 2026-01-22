@@ -1,11 +1,13 @@
 # 📦 StudioView 3D Pro
 
+<img width="500" height="500" alt="appIcon" src="https://github.com/user-attachments/assets/14c5f7f8-aec3-4ee5-9fb7-d9ca32588906" />
+
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)
 [![Three.js](https://img.shields.io/badge/Three.js-0.173-black?logo=three.js&logoColor=white)](https://threejs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**StudioView 3D Pro** is a high-fidelity, industrial-grade 3D model inspector built for the modern web. It provides engineers and technical artists with a streamlined environment to inspect PBR materials, analyze scene geometry, and customize workspace aesthetics in real-time.
+**StudioView 3D Pro** is a high-fidelity, industrial-grade 3D model inspector built for the modern web. It provides engineers and technical artists with a streamlined environment to inspect PBR materials, analyze scene geometry in real-time.
 
 ## ✨ Key Features
 
