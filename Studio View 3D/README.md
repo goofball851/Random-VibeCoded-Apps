@@ -33,6 +33,7 @@ We are committed to evolving StudioView. The following features are currently in
 -   **Frontend:** React 19 & Tailwind CSS
 -   **3D Engine:** Three.js (R173)
 -   **Icons:** Lucide React
+-   **Development** Google AI Studio
 -   **Deployment:** Optimized for modern ES6 module environments
 
 ## 📖 Usage
