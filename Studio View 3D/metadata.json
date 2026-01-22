@@ -1,0 +1,7 @@
+{
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "name": "StudioView 3D Pro",
+  "description": "High-fidelity industrial 3D inspector with Smart Edge Detection and UI customization."
+}
