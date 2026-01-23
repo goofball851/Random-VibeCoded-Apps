@@ -1,5 +1,8 @@
 # ArtFrame
 
+<img width="500" height="500" alt="Gemini_Generated_Image_j1a3c7j1a3c7j1a3" src="https://github.com/user-attachments/assets/7b4d356c-e074-4237-9d39-3f83c27432a1" />
+
+
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
 ![React](https://img.shields.io/badge/React-19-61dafb.svg?logo=react&logoColor=white)
