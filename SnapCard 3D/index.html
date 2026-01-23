@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SnapCard 3D</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Titan+One&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --bg-dark: #0f0f13;
+        --glass-panel: rgba(25, 25, 35, 0.65);
+        --glass-border: rgba(255, 255, 255, 0.1);
+        --primary: #8b5cf6; /* Violet */
+        --accent: #ec4899; /* Pink */
+        --text-main: #ffffff;
+        --text-muted: #94a3b8;
+      }
+
+      body {
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        background-color: var(--bg-dark);
+        /* Modern mesh gradient background */
+        background-image: 
+          radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+          radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), 
+          radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        color: var(--text-main);
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      #root {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      /* Scrollbar Styling */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: rgba(255,255,255,0.2); 
+        border-radius: 3px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgba(255,255,255,0.3); 
+      }
+
+      /* Custom Range Slider Styling */
+      input[type=range] {
+        -webkit-appearance: none; 
+        width: 100%; 
+        background: transparent; 
+      }
+      
+      input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        height: 16px;
+        width: 16px;
+        border-radius: 50%;
+        background: var(--text-main);
+        cursor: pointer;
+        margin-top: -6px; 
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+      
+      input[type=range]::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 4px;
+        cursor: pointer;
+        background: rgba(255,255,255,0.2);
+        border-radius: 2px;
+      }
+      
+      input[type=range]:focus {
+        outline: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
