@@ -1,5 +1,7 @@
 # RetroWeb Arcade
 
+<img width="500" height="500" alt="ChatGPT Image Jan 26, 2026, 12_45_35 PM" src="https://github.com/user-attachments/assets/bd43f005-9053-4608-81d6-f40154769079" />
+
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white)
