@@ -1,0 +1,5 @@
+{
+  "name": "RetroWeb Arcade",
+  "description": "A fully functional retro gaming arcade in your browser. Upload ROMs, manage your library with AI-powered metadata, and play classic games from NES, SNES, Genesis, GBA, and more using the integrated EmulatorJS engine.",
+  "requestFramePermissions": []
+}
