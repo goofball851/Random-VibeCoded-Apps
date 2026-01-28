@@ -1,5 +1,8 @@
 # PocketWeb
 
+<img width="500" height="500" alt="PocketWeb" src="https://github.com/user-attachments/assets/b711727f-af12-431f-9085-e79e1dc784e8" />
+
+
 PocketWeb is a professional-grade web application wrapper designed to consolidate multiple web tools into a single, highly customizable interface. It leverages a modern React stack with an emphasis on aesthetics, performance, and user-centric configuration.
 
 ## 🚀 Features
