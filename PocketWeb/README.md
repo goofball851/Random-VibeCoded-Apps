@@ -64,4 +64,4 @@ Navigate to the **Atmosphere** tab to:
 MIT License. Feel free to use and modify for your personal or professional workflows.
 
 ---
-*Synthesized with precision for the modern web.*
+*Synthesized with precision for the modern web with Google AI Studio.
