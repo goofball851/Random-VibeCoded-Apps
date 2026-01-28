@@ -1,0 +1,9 @@
+{
+  "name": "PocketWeb",
+  "description": "A professional-grade web application wrapper with tab management, custom themes, and persistent workspace configurations.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
