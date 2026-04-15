@@ -1,6 +1,6 @@
 # RealScan
 
-<img width="1024" height="1024" alt="Gemini_Generated_Image_jxqo01jxqo01jxqo" src="https://github.com/user-attachments/assets/f8a38325-dec4-49bc-878c-394664fa9ae5" />
+<img width="500" height="500" alt="Gemini_Generated_Image_jxqo01jxqo01jxqo" src="https://github.com/user-attachments/assets/f8a38325-dec4-49bc-878c-394664fa9ae5" />
 
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
