@@ -1,5 +1,8 @@
 # RealScan
 
+<img width="1024" height="1024" alt="Gemini_Generated_Image_jxqo01jxqo01jxqo" src="https://github.com/user-attachments/assets/f8a38325-dec4-49bc-878c-394664fa9ae5" />
+
+
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
