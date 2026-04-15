@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@layer base {
+  :root {
+    --bg-main: #f8fafc;
+    --card-bg: #ffffff;
+    --border-color: #e2e8f0;
+    --text-primary: #1e293b;
+    --text-secondary: #64748b;
+    --accent-indigo: #4f46e5;
+    --verdict-red: #ef4444;
+    --verdict-green: #22c55e;
+    --verdict-amber: #f59e0b;
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+  }
+}
+
+@layer utilities {
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  }
+
+  .card-title {
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+  }
+
+  .input-textarea {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 16px;
+    font-family: var(--font-sans);
+    font-size: 0.9375rem;
+    background: #fdfdfd;
+  }
+
+  .upload-zone {
+    border: 2px dashed var(--border-color);
+    border-radius: 8px;
+    background: #fcfcfd;
+    color: var(--text-secondary);
+  }
+
+  .btn-primary {
+    background: var(--accent-indigo);
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
+  }
+
+  .badge {
+    padding: 4px 12px;
+    border-radius: 100px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .badge-red {
+    background: #fef2f2;
+    color: var(--verdict-red);
+  }
+  
+  .badge-amber {
+    background: #fef3c7;
+    color: var(--verdict-amber);
+  }
+  
+  .badge-green {
+    background: #f0fdf4;
+    color: var(--verdict-green);
+  }
+
+  .data-label {
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin-bottom: 4px;
+  }
+
+  .data-value {
+    font-weight: 600;
+    font-size: 0.9375rem;
+  }
+
+  .summary-text {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
+    background: #f1f5f9;
+    padding: 16px;
+    border-radius: 8px;
+  }
+}

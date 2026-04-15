@@ -1,0 +1,6 @@
+{
+  "name": "RealScan",
+  "description": "Analyzes text and images to determine if they were AI-generated.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
