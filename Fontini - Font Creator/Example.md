@@ -1,2 +1,2 @@
 
-[App Test](https://fontini.ai.studio).
+[App Test](https://fontini.ai.studio)
