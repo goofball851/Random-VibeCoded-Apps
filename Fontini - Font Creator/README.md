@@ -10,7 +10,8 @@
 
 A powerful web-based font creation tool that lets you design custom fonts by drawing each character individually. Create unique typefaces with professional-grade drawing tools, then export them as OpenType font files (.otf).
 
-## [Try It Out](https://fontini.ai.studio)
+
+## [Click Here to Try It Out](https://fontini.ai.studio)
 
 
 ## ✨ Features
